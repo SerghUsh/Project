@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    margin: 15px;
+    
+}
+
+.container div {
+    margin: 15px;
+    padding: 10px 20px;
+    border-style: dashed;
+    border-width: 3px;
+    border-color: blue;
+    border-radius: 25%;
+}
