@@ -47,28 +47,25 @@ console.log(typeof newArray);
 
 // Task 2
 
-/* Prompt
-let name = "Мене звати Сергій,";
-let age = " мені " + 32 + " роки";
-let height = " мій зріст " + 172 + " см";
-
-prompt(name + age + height); */
-
-/* Alert
-let name = "Мене звати Сергій,";
-let age = " мені " + 32 + " роки,";
-let height = " мій зріст " + 172 + " см";
-
-alert(name + age + height);*/
-
-//Template literals
-
-let name = "Сергій";
-let age = 32;
-let height = 172;
+/*let name = prompt("Введіть своє ім'я");
+let age = prompt("Введіть свій вік");
+let height = prompt("Який ви маєте зріст");
 
 let message = `Привіт, мене звати ${name}.
 Мені ${age} роки.
 А мій зріст ${height} см.`
 
- console.log(message);
+ alert(message); */
+
+ // Task 3
+
+/*let num1 = prompt("Введіть перше довільне число");
+ let num2 = prompt("Введіть друге довільне число");
+
+ num1 = Number(num1);
+ num2 = Number(num2);
+
+ let sum = num1 + num2;
+
+ alert("Сума чисел: " + sum)*/
+
