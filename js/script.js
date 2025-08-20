@@ -69,3 +69,13 @@ let message = `Привіт, мене звати ${name}.
 
  alert("Сума чисел: " + sum)*/
 
+// Task 4
+
+let userName = prompt("Enter your name");
+
+if (userName === null || userName.trim() === "") {
+        alert("The entry has been canceled.");
+}
+else {
+        alert(`Hello ${userName}. How are you?`);
+}
