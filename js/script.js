@@ -83,19 +83,6 @@ else {
         alert(`Hello ${userName}. How are you?`);
 }*/
 
-/*
-5) отримати від юзера ціле додатнє число. 
-якщо юзер ввів ціле додатнє число, то вивести йому "this is a cool number". 
-якщо це від'ємне або неціле, то вивести "this is not a cool number". 
-якщо юзер ввів взагалі не число, то вивести йому помилку (довільний текст помилки)
-
-6) отримати від юзера 3значне число. 
-якщо юзер дійсно ввів ціле додатнє тризначне число, 
-то визначити і вивести відповіді на питання:
-- Чи всі цифри однакові?
-- Чи є серед цифр однакові?
-якщо це не ціле додатнє тризначне, то вивести помилку
-*/
 
 /*(function task5() {
   const plusNumb = prompt("Введіть ціле додатнє число");
@@ -128,7 +115,7 @@ else {
 
 // Task 6
 
-(function task6() {
+/*(function task6() {
 let answer = prompt("Введіть тризначне додатнє число:");
 
 if (answer === null) {
@@ -160,6 +147,81 @@ else {
                 }
 }
         
-})();
+})();*/
+
+/*let newAnswer = answer.replace("а", "і");
+                alert(/^a$/.test(newAnswer));*/
+
+/*(function task7() {
+        
+        const answer = prompt("Введіть довільне речення");
+
+        if (answer.includes("яблуко")) {
+                alert("ммм, щоб про яблука");
+        }
+        else {
+                const newAnswer = answer.replace(/а/g, "і");
+                alert(newAnswer);
+        }
+        
+})();*/
+
+// Task 8
+/*  const userInput = prompt('What is your name?');
+  let userName = userInput?.trim() ? userInput?.trim() : '[noname]';
+  /*if (userInput?.trim()) {
+    userName = userInput?.trim();
+  }
+  else {
+    userName = '[noname]';
+  }*/
+
+  /*alert(`Hello ${userName}`);*/
+
+  // Task 9
+  //  переписати код з використанням скорочених операторів:
+
+let a = 3;
+a += 3;
+a *= 2;
+a -=10;
+a **= 2;
+console.log('Final a is ' + a);
+
+
+// Task 10
+
+//const userInput = prompt('What is favorite fruit?');
+
+/*if (userInput === 'apple') {
+  alert('Cook an apple pie');
+}
+else if (userInput === 'orange') {
+  alert('would you like a fresh juice?');
+}
+else if (userInput === 'pineapple') {
+  alert('Neither pine nor apple');
+}
+else {
+  alert('I don\'t know such a fruit');
+}*/
+
+/*switch (userInput) {
+        case "apple": 
+                userInput === 'apple'
+                alert('Cook an apple pie');
+                break;
+        case "orange": 
+                userInput === 'orange';
+                alert('would you like a fresh juice?');
+                break;
+        case "pineapple":
+                userInput === 'pineapple';
+                alert('Neither pine nor apple');
+                break;
+        default:
+                alert('I don\'t know such a fruit');
+}
+*/
 
 
